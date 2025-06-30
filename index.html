@@ -14,16 +14,28 @@
             margin: 0;
             padding: 0;
             color: #333;
+            padding-bottom: 50px; /* Add space for the fixed footer */
         }
         header {
-            background-color: #4CAF50;
+            background-image: url('https://st5.depositphotos.com/13684278/74772/i/450/depositphotos_747723942-stock-photo-smart-farm-advanced-technology-enhanced.jpg'); /* Placeholder image */
+            background-size: cover; /* Make sure the image covers the entire header */
+            background-position: center; /* Center the image */
             color: white;
-            padding: 20px;
+            padding: 50px 20px;
             text-align: center;
         }
         header h1 {
-            margin: 0;
-        }
+    margin: 0;
+    font-size: 3rem; /* Adjust the font size as needed */
+    text-shadow: 
+        2px 2px 4px rgba(0, 0, 0, 0.6), /* Light shadow for subtle outline effect */
+        -2px -2px 4px rgba(0, 0, 0, 0.6); /* Second shadow for more definition */
+    position: relative;
+    z-index: 2; /* Ensures the title stays on top of any background */
+    padding: 10px; /* Optional: adds some spacing around the text */
+    background: rgba(0, 0, 0, 0.3); /* Semi-transparent black background for contrast */
+    border-radius: 8px; /* Optional: rounded corners for the background */
+}
         section {
             padding: 20px;
             max-width: 800px;
@@ -44,13 +56,26 @@
             margin-left: 20px;
         }
         footer {
-            text-align: center;
-            padding: 10px;
             background-color: #4CAF50;
             color: white;
-            position: absolute;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
             bottom: 0;
             width: 100%;
+            left: 0;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Optional: adds shadow to footer */
+        }
+        img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .tech-image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
         }
     </style>
 </head>
@@ -61,9 +86,17 @@
 
     <section>
         <h2>The Future of Farming: The Wi-Fi-Compatible Corn Strain</h2>
+        
+        <!-- Corn Image -->
+        <img src="https://www.chsbuffalo.org/wp-content/uploads/2019/07/corn-field.jpg" alt="Corn Field">
+
         <p>In an exciting breakthrough that blends agriculture with cutting-edge technology, scientists have recently unveiled a Wi-Fi-compatible corn strain that promises to revolutionize the way we farm and monitor crops. This new strain combines traditional farming practices with the power of the Internet of Things (IoT), making it possible for farmers to manage their crops in real-time from anywhere in the world.</p>
 
         <h3>A New Era of Smart Farming</h3>
+        
+        <!-- Tech/IoT Image -->
+        <img class="tech-image" src="https://smarttek.solutions/wp-content/uploads/smart-farming.jpg" alt="Smart Technology IoT">
+
         <p>For years, technology has been slowly infiltrating the farming world, from GPS-guided tractors to drone-powered crop monitoring. But the Wi-Fi-compatible corn strain takes this integration to the next level. By embedding tiny sensors into the DNA of corn plants, researchers have developed a strain of corn that can communicate wirelessly with devices via Wi-Fi. These sensors allow the plants to send real-time data on factors like soil moisture, temperature, growth rates, and even pest infestations.</p>
 
         <p>This data is then transmitted to a cloud-based platform, where farmers can access it remotely via an app or computer. No longer will farmers need to walk miles through fields to check on the health of their crops or spend hours manually monitoring soil conditions. Instead, with a few clicks, they can monitor everything they need to know in the palm of their hand, ensuring optimal growing conditions for their crops.</p>
@@ -82,7 +115,11 @@
 
         <p>In addition, the strain has been designed to work with existing agricultural equipment. For example, smart irrigation systems can be connected to the Wi-Fi-compatible corn plants, which will automatically adjust watering schedules based on soil moisture data collected by the plants themselves. Similarly, automated pest detection systems can respond to the plant's data, targeting affected areas with precision.</p>
 
-        <h3>The Benefits of Wi-Fi-Compatible Corn</h3>
+        <h3>The Benefits of Wi-Fi-Compatible Mainstream Crops</h3>
+        
+        <!-- Tech/IoT Image -->
+        <img class="tech-image" src="https://images.stockcake.com/public/e/e/3/ee39d4df-6e60-4560-9e0c-a71508de39e3_large/smart-farming-technology-stockcake.jpg" alt="Smart Technology IoT">
+        
         <p>1. <strong>Enhanced Crop Monitoring:</strong> With constant, real-time data, farmers can identify issues such as drought, disease, or nutrient deficiencies earlier than ever before. This allows them to take action quickly, often preventing crop loss or damage.</p>
 
         <p>2. <strong>Sustainability:</strong> The strain reduces waste and resource consumption by optimizing irrigation and fertilization schedules. By using data-driven decisions, farmers can reduce water usage, minimize chemical inputs, and lower their environmental footprint.</p>
@@ -102,13 +139,16 @@
         </ul>
 
         <h3>The Future of Wi-Fi-Connected Crops</h3>
+        
+        <img class="closing-image" src="https://www.shutterstock.com/image-photo/professional-male-bioengineer-examining-crops-260nw-2309770999.jpg" alt="Smart Technology IoT">
+        
         <p>The introduction of the Wi-Fi-compatible corn strain is just the beginning. Researchers are already working on other crops that could benefit from similar technology. From wheat and soybeans to even fruit-bearing trees, the possibilities are endless. As IoT technology continues to evolve, we may see a future where entire agricultural industries are transformed into high-tech, precision-driven operations.</p>
 
         <p>This new innovation is an exciting step forward in the world of agriculture, combining nature with technology in a way that promises to increase efficiency, reduce waste, and improve sustainability. With Wi-Fi-compatible crops, the future of farming is indeed smart, connected, and potentially more productive than ever before.</p>
     </section>
 
     <footer>
-        <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+        <p>&copy; 2025 USDA. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
